@@ -1,41 +1,27 @@
-# Favorite Fruits Random Selector
+# Hangman Game
 
 ## Table of Contents
-1. [Project Description](#project-description)
-2. [Installation Instructions](#installation-instructions)
-3. [Usage Instructions](#usage-instructions)
-4. [File Structure](#file-structure)
-5. [License](#license)
+- [Description](#description)
+- [Installation Instructions](#installation-instructions)
+- [Usage Instructions](#usage-instructions)
+- [File Structure](#file-structure)
+- [License Information](#license-information)
 
-## Project Description
-This project is a simple Python script that demonstrates the use of lists, random selection, and user input validation. The script performs the following tasks:
-- Creates a list of your favorite fruits.
-- Selects a random fruit from the list.
-- Prompts the user to guess a letter.
-- Validates the user input to ensure it is a single alphabetical character.
+## Description
+This project is a simple Hangman game implemented in Python. The game randomly selects a word from a predefined list of favorite fruits, and the player has to guess the letters in the word. The aim of the project is to practice and demonstrate Python programming skills, including the use of loops, conditionals, functions, and input validation.
 
-The aim of this project is to practice basic Python programming concepts, including working with lists, using the `random` module, and handling user input with validation. Through this project, you will learn how to:
-- Create and manipulate lists in Python.
-- Use the `random.choice` method to select a random item from a list.
-- Get and validate user input using the `input` function and conditional statements.
+### Aim of the Project
+- To implement a classic word-guessing game.
+- To practice Python programming concepts such as functions, loops, conditionals, and user input validation.
+- To learn how to structure a Python project and create a clean, modular codebase.
+
+### What You Learned
+- How to create and use lists in Python.
+- How to use the `random` module to select a random item from a list.
+- How to take user input and validate it.
+- How to structure code using functions for better readability and maintainability.
 
 ## Installation Instructions
-To run this project, you need to have Python installed on your system. Follow the steps below to set up and run the script:
-
-1. Clone the repository:
-   ```sh
+1. Clone the repository from GitHub:
+   ```bash
    git clone https://github.com/Yusufk97/hangman546.git
-
-Navigate to the project directory:
-
-cd favorite-fruits-random-selector
-
-
-Run the Python script:
-
-python milestone_2.py
-
-favorite-fruits-random-selector/
-│
-├── milestone_2.py  # The main Python script for the project
-├── README.md       # This README file
